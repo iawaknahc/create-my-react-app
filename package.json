@@ -1,0 +1,28 @@
+{
+  "name": "create-my-react-app",
+  "version": "0.1.0",
+  "dependencies": {
+    "react": "16.2.0",
+    "react-dom": "16.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "stylelint": "stylelint 'src/**/*.scss'",
+    "eslint": "eslint --max-warnings 0 'src/**/*.js'",
+    "prettier": "prettier -l 'src/**/*.{js,scss}'",
+    "format": "prettier --write 'src/**/*.{js,scss}'",
+    "flow": "flow",
+    "ci": "yarn run flow && yarn run eslint && yarn run stylelint && yarn run prettier"
+  },
+  "devDependencies": {
+    "@iawaknahc/react-scripts": "1.0.17-custom.1",
+    "flow-bin": "0.63.1",
+    "prettier": "1.10.2",
+    "stylelint": "8.4.0",
+    "stylelint-config-recommended": "2.0.1",
+    "stylelint-no-unsupported-browser-features": "2.0.0"
+  }
+}

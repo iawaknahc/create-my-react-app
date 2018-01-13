@@ -1,0 +1,16 @@
+[ignore]
+.*/node_modules/.*
+.*/build/.*
+
+[include]
+
+[libs]
+
+[lints]
+all=error
+
+[options]
+all=true
+module.name_mapper.extension='scss' -> '<PROJECT_ROOT>/src/CSSModule'
+
+[strict]

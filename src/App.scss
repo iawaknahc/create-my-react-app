@@ -1,0 +1,15 @@
+@import "./base.scss";
+
+.a {
+  @include clearfix;
+
+  height: 200px;
+  background-color: $my-color;
+}
+
+.b {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
