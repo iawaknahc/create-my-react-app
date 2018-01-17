@@ -7,6 +7,7 @@
 0. prettier
 0. SASS
 0. CSS Modules
+0. eslint-plugin-flowtype
 
 # What are excluded
 
@@ -24,4 +25,5 @@
 # How to upgrade
 
 0. Merge upstream changes and re-apply custom changes for the forked react-scripts
+0. Update `eslint-config-react-app`
 0. Consult create-react-app upgrade guide if needed
