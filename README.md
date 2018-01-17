@@ -8,6 +8,7 @@
 0. SASS
 0. CSS Modules
 0. eslint-plugin-flowtype
+0. redux, react-redux and redux-thunk
 
 # What are excluded
 
